@@ -1,66 +1,77 @@
-Proyecto: Análisis de Rendimiento de Tiendas - Alura Store
-🎯 Propósito del Proyecto
+# Proyecto: Análisis de Rendimiento de Tiendas - Alura Store
+
+## 🎯 Propósito del Proyecto
+
 Este proyecto realiza un análisis estratégico integral de cuatro tiendas para determinar cuál representa la mejor opción para una posible venta. El análisis considera múltiples dimensiones comerciales incluyendo facturación, satisfacción del cliente, eficiencia operativa y distribución geográfica.
 
-📋 Descripción
+## 📋 Descripción
+
 El Sr. Juan necesita determinar qué tienda vender basándose en datos objetivos. Este análisis proporciona una evaluación completa utilizando técnicas de data analytics y visualización para apoyar la toma de decisiones estratégicas.
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 proyecto-logica-programacion1/
 │
-├── 📓 AluraStoreLatam.ipynb          # Notebook principal con análisis completo
-├── 📄 README.md                       # Este archivo - documentación del proyecto
-├── 📄 requirements.txt                # Dependencias y librerías requeridas
+├── 📓 AluraStoreLatam.ipynb # Notebook principal con análisis completo
+├── 📄 README.md # Este archivo - documentación del proyecto
+├── 📄 requirements.txt # Dependencias y librerías requeridas
 │
-├── 📁 data/                           # Datasets de las tiendas
-│   ├── tienda1.csv
-│   ├── tienda2.csv
-│   ├── tienda3.csv
-│   └── tienda4.csv
+├── 📁 data/ # Datasets de las tiendas
+│ ├── tienda1.csv
+│ ├── tienda2.csv
+│ ├── tienda3.csv
+│ └── tienda4.csv
 │
-├── 📁 outputs/                        # Resultados y visualizaciones
-│   └── 📁 graficos_analisis/ 
-|       ├── Comparacion de productos mas vendidos por las 4 tiendas.png
-|       ├── Dashboardoria.png
-|       ├── Distribucion geografica de ventas por tienda.png
-│       ├── Envío promedio por tienda.png
-│       ├── facturacion_mensual.png
-│       ├── Mapas de calor- Concentracion geografica de ventas.png
-│       └── Resultados de ingresos por tienda.png
-└── 📁 utils/                          # Funciones auxiliares
-    └── helpers.py
+├── 📁 outputs/ # Resultados y visualizaciones
+│ └── 📁 graficos_analisis/
+│ ├── Comparacion de productos mas vendidos por las 4 tiendas.png
+│ ├── Dashboardoria.png
+│ ├── Distribucion geografica de ventas por tienda.png
+│ ├── Envío promedio por tienda.png
+│ ├── facturacion_mensual.png
+│ ├── Mapas de calor- Concentracion geografica de ventas.png
+│ └── Resultados de ingresos por tienda.png
+│
+└── 📁 utils/ # Funciones auxiliares
+└── helpers.py
 
-    🔍 Métricas Analizadas
-📈 Dimensiones Evaluadas:
-Facturación Total: Volumen de ventas por tienda
 
-Satisfacción del Cliente: Calificaciones promedio
+## 🔍 Métricas Analizadas
 
-Eficiencia Operativa: Costos de envío y logística
+### 📈 Dimensiones Evaluadas:
 
-Desempeño por Categoría: Ventas por línea de productos
+- **Facturación Total**: Volumen de ventas por tienda
+- **Satisfacción del Cliente**: Calificaciones promedio
+- **Eficiencia Operativa**: Costos de envío y logística
+- **Desempeño por Categoría**: Ventas por línea de productos
+- **Productos Más/Menos Vendidos**: Análisis de desempeño
+- **Distribución Geográfica**: Cobertura y clusters de mercado
 
-Productos Más/Menos Vendidos: Análisis de desempeño
+## 🚀 Instalación y Configuración
 
-Distribución Geográfica: Cobertura y clusters de mercado
+### Prerrequisitos:
 
-🚀 Instalación y Configuración
-Prerrequisitos:
-Python 3.8 o superior
+- Python 3.8 o superior
+- Jupyter Notebook o JupyterLab
 
-Jupyter Notebook o JupyterLab
+### Instalación de Dependencias:
 
-Instalación de Dependencias:
-bash
+```bash
 pip install -r requirements.txt
+
+
 Dependencias Principales:
-python
 pandas>=1.5.0
+
 matplotlib>=3.5.0
+
 seaborn>=0.11.0
+
 numpy>=1.21.0
+
 jupyter>=1.0.0
+
 python-docx>=0.8.11
+
 📊 Uso del Proyecto
 Ejecutar el Análisis Completo:
 bash
@@ -106,8 +117,8 @@ Tienda 1: $26,018.61
 
 🏆 Recomendación Final
 TIENDA 4 - RECOMENDADA PARA LA VENTA
-Justificación Estratégica:
 
+Justificación Estratégica:
 ✅ Menores costos operativos (10% más eficiente que Tienda 1)
 
 ✅ Máxima eficiencia logística
